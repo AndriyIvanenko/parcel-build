@@ -1,0 +1,25 @@
+{
+  "name": "parcel-build",
+  "version": "1.0.0",
+  "description": "parcel project template",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndriyIvanenko/parcel-build.git"
+  },
+  "author": "Andriy Ivanenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndriyIvanenko/parcel-build/issues"
+  },
+  "homepage": "https://github.com/AndriyIvanenko/parcel-build",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
